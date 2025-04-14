@@ -1,0 +1,153 @@
+.page {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.posterBox {
+  position: relative;
+  flex: 1 1 600px;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.poster {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.playOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 60px;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.video {
+  width: 100%;
+  height: 340px;
+  border: none;
+}
+
+.info {
+  flex: 1 1 300px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.details p {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.reactions {
+  margin-top: 20px;
+  display: flex;
+  gap: 16px;
+  font-size: 20px;
+}
+
+.comments {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.comments textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.comments button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #f5c518;
+  color: #000;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.comments ul {
+  margin-top: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.comments li {
+  padding: 8px 0;
+  border-bottom: 1px solid #333;
+}
+
+/* Tema Escuro */
+.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+.dark .back {
+  color: #90caf9;
+}
+
+.dark .title {
+  color: #f5c518;
+}
+
+.dark .description {
+  color: #ccc;
+}
+
+.dark .details p {
+  color: #aaa;
+}
+
+.dark .reactions {
+  color: #f5c518;
+}
+
+.dark .comments {
+  background-color: #1e1e1e;
+}
+
+.dark .comments li {
+  color: #ddd;
+}
+
+/* Tema Claro */
+.light {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.light .back {
+  color: #0056b3;
+}
+
+.light .title {
+  color: #111;
+}
