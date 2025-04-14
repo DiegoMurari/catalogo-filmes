@@ -6,41 +6,31 @@ Aplicação em React que consome a API do TMDb para exibir um catálogo de filme
 
 ## 🚀 Tecnologias utilizadas
 
-- **React** (Vite ou CRA)
-- **React Router DOM** – Rotas dinâmicas
-- **TMDb API** – Dados dos filmes
-- **CSS Modules** – Estilização
-- **LocalStorage** – Persistência de likes e comentários
-- **Vercel** – Hospedagem da aplicação
+- **React**
+- **React Router DOM**
+- **TMDb API**
+- **CSS Modules**
+- **LocalStorage**
+- **Vercel**
 
 ---
 
 ## 📸 Prints da aplicação
 
-### 🎥 Página inicial
+### 🏠 Página inicial
 ![Página inicial](./prints/home.png)
 
-### 🎬 Detalhes do filme
-![Detalhes do filme](./prints/detalhes.png)
-
-### 🌒 Tema escuro
-![Tema escuro](./prints/tema-escuro.png)
+### 🎥 Detalhes do filme
+![Detalhes](./prints/detalhes.png)
 
 ---
 
 ## 🔧 Como executar o projeto
 
 ```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-# Acesse a pasta
-cd seu-repositorio
-
-# Instale as dependências
+git clone https://github.com/seu-usuario/catalogo-filmes.git
+cd catalogo-filmes
 npm install
-
-# Execute o projeto
 npm start
 ```
 
@@ -48,23 +38,22 @@ npm start
 
 ## 🌐 Acesse online
 
-➡️ **Link da aplicação hospedada:**  
-https://seu-nome.vercel.app
+➡️ [Clique aqui para acessar a aplicação no ar](https://catalogo-filmes-delta.vercel.app/)
 
 ---
 
-## ✅ Funcionalidades implementadas
+## ✅ Funcionalidades
 
-- [x] Exibição de filmes populares via API externa (TMDb)
-- [x] Detalhes de cada filme com rota dinâmica (`/filme/:id`)
-- [x] Sistema de curtidas e comentários por filme
-- [x] Scroll infinito para carregar mais filmes
-- [x] Alternância entre tema escuro e claro
-- [x] Dados persistentes mesmo ao atualizar ou trocar tema
+- [x] Exibição de filmes populares
+- [x] Detalhes com rota dinâmica
+- [x] Comentários persistentes
+- [x] Likes por filme
+- [x] Scroll infinito
+- [x] Tema claro/escuro dinâmico
 
 ---
 
-## 💡 Autor
+## 👨‍💻 Autor
 
 Desenvolvido por **Diego de Oliveira Murari Guimarães**  
-[LinkedIn](https://www.linkedin.com/in/diego-murari)
+[LinkedIn](https://www.linkedin.com/in/diego-murari-200a1120a)
